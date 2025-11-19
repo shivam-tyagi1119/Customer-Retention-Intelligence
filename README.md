@@ -92,6 +92,7 @@ Step 3: From the Scripts folder, run model_testing.py to genrate the prediction 
 Note:
 flask_ping.py is used to verify that the Flask API is running correctly.
 
+```
 
 ---
 
