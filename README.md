@@ -118,7 +118,7 @@ docker run -it -p 9696:9696 loan-default-model
     ├── train.py
     ├── predict.py
     ├── flask_ping.py
-model_C=1.0.bin
+    ├── model_C=1.0.bin
 README.md
 ```
 
