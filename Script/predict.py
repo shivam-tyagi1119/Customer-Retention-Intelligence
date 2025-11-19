@@ -43,8 +43,8 @@ def predict():
 
     # Prepare response
     result = {
-        'actual_probability': float(y_pred),
-        'loan_default_probability': float(product_subscription)
+        'Actual_Probability': float(y_pred),
+        'Default_Probability': float(product_subscription)
     }
 
     return jsonify(result)
@@ -56,3 +56,4 @@ def predict():
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=9696)
+
