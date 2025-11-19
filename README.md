@@ -82,6 +82,18 @@ A Flask server exposes a `/predict` endpoint that accepts a JSON payload and ret
 ```
 
 ---
+## Model Testing using scripts
+
+```
+Step 1: From the Scripts folder, run train.py to generate the model.
+Step 2: From the Scripts folder, run predict.py to serve the model as a real-time endpoint (RTE).
+Step 3: From the Scripts folder, run model_testing.py to genrate the prediction for customer present in payload.
+
+Note:
+flask_ping.py is used to verify that the Flask API is running correctly.
+
+
+---
 
 ## Example cURL Request
 ```
